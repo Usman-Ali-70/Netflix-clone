@@ -110,6 +110,7 @@ nav img {
   position: relative;
   font-size: 17px;
   z-index: 10;
+  color : white;
   border: 1px solid gray;
   margin: 0 10px;
   background-color: rgba(70, 90, 126, 0.4);
@@ -299,12 +300,6 @@ footer span a {
   margin: 20px 0px;
   z-index: 10;
 }
-@media only screen and (max-width: 480px) {
-  nav {
-    margin: 0px auto;
-    padding: 10px 25px;
-}
-
 nav img {
   color: red;
   width: 90px;
@@ -423,6 +418,12 @@ text-align: center;
   color: white;
   grid-column-end: auto;
 }
+}
+@media only screen and (max-width: 480px) {
+  nav {
+    margin: 0px auto;
+    padding: 10px 25px;
+    background-size: max(1200px, 210vh);
 }
 @media only screen and (max-width: 1440px){
   .main{
